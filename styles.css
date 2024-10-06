@@ -1,0 +1,207 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-buttons .appointment-button, .nav-buttons .help-button {
+    background-color: #FFA500;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+#hero {
+    background: url('m.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.hero-button {
+    background-color: #FFA500;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.content-section {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.treatment-grid, .doctor-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.treatment, .doctor {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.full-width-img {
+    width: 100%;
+    height: auto;
+}
+
+
+.content-section {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.icon-img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.advice-button, .reviews-button, .faq-button {
+    background-color: #FFA500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.expert-advice-content, .reviews-content, .faq-content {
+    max-width: 800px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .content-section {
+        padding: 15px;
+    }
+}
+
+
+footer {
+    background-color: #333;
+[_{{{CITATION{{{_1{](https://github.com/vonnievon/490Project/tree/976dd80a1e4841cd450b0842b03dc4aa22a95f93/header.php)[_{{{CITATION{{{_2{](https://github.com/ankitaRastogi987/NotesPool/tree/5ee0615769a105eab368c1081a8e783c5a40182c/raxio%2Fw_dashbord.php)[_{{{CITATION{{{_3{](https://github.com/biyadiayman/kitkat/tree/825cc1b76e77bf36ab9be719629108144489c0ce/src%2FLandingPage.js)
